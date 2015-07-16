@@ -1,0 +1,142 @@
+body {
+           background-color:aquamarine;
+           background-image:url(../images/mdg-queens-of-africa-dol-008.jpg);
+           background-repeat:no-repeat;
+           background-size:cover;
+           background-position:center;
+           color:purple;    
+           font-family: Times Roman Numeral;
+           font-size:30px;
+           font-weight:bold;
+           line-height:1.5;
+           
+body {
+   background-color: black;
+}           
+       } 
+       
+       h1 {
+           color:teal;
+           font-size:100px;
+           line-height:3;
+           
+       }
+       
+       h2 {
+           color:yellow;
+           font-size:75px;
+           font-style:italic;
+           font-weight:bold;
+           text-align:center;
+       }
+       
+       h3 {
+           font-size:50px;
+           text-align:center;
+       }
+       
+       a: link{
+           color:green;
+           font-style:absolute;
+       } 
+       
+       a:visited {
+           color:red;
+           font-style:italic;
+           
+       }
+       
+       a:active {
+           color :green;
+           font-family:ariel;
+       }
+       
+       a:hover {
+           color:yellow;
+           font-weight:bolder;
+       }
+           
+           
+       }
+       img {
+           width:60px;
+           height:10px;
+           position:absolute;
+           z-index:1;
+       }
+       .nav li {
+           list-style-type:none;
+           margin: 10px;
+           display:inline-block;
+       }
+       
+       .nav a{
+           padding: 10px;
+           background-color:black;
+       }
+       .nav a :hover{
+           padding: 10px;
+           background-color:red;
+       }
+       
+       .nav li{
+       display:inline-block;
+       list-style-type:none;
+       height:25px;
+       padding:0;
+       margin:0:
+         
+}
+
+ul.nav{
+      margin:20px 10px 40px 20x;
+      padding:40px 80px;
+      background-color:#07704b;
+      width:100%;
+}
+
+.nav li a {
+           background-color:#07704b;
+           color:white;
+           text-decoration:none;
+           padding:20px 40px;
+           float: left;
+           width:auto;
+           border-right:solid 1px whte;
+           text-transform:uppercase;
+}
+.nav li a:hover{
+      background-color:blue;
+      color:black;    
+}
+
+.nav li:first-child a{
+  
+           border-left:solid 1px white;
+}
+.nav a:link{
+    color:#49b18c;
+}
+.nav a:visited{
+    color:#07704b;
+}
+.nav a:hover{
+    color:77ceaf;
+    background-color:#49b18c;
+}
+.nav a:active{
+    border:solid 1px white;
+}
+
+div {
+    background-color:black;
+    width:100%;
+    text-align:center;
+    position:absolute;
+    left:0px;
+    top:1220px;
+    px;
+    
+    }
+
+            
