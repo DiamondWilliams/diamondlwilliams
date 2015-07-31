@@ -1,3 +1,5 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+
 body {
            background-color:aquamarine;
            background-image:url(../images/mdg-queens-of-africa-dol-008.jpg);
@@ -9,11 +11,12 @@ body {
            font-size:30px;
            font-weight:bold;
            line-height:1.5;
+}
            
-body {
+ body {
    background-color: black;
 }           
-       } 
+       
        
        h1 {
            color:teal;
@@ -37,7 +40,7 @@ body {
        
        a: link{
            color:green;
-           font-style:absolute;
+           font-style:italic;
        } 
        
        a:visited {
@@ -56,12 +59,10 @@ body {
            font-weight:bolder;
        }
            
-           
-       }
+
        img {
-           width:60px;
-           height:10px;
-           position:absolute;
+           
+           /*position:absolute;*/
            z-index:1;
        }
        .nav li {
@@ -84,16 +85,16 @@ body {
        list-style-type:none;
        height:25px;
        padding:0;
-       margin:0:
+       margin:0;
          
 }
 
 ul.nav{
-      margin:20px 10px 40px 20x;
-      padding:40px 80px;
+      margin:20px 10px 40px 20px;
       background-color:#07704b;
       width:100%;
 }
+
 
 .nav li a {
            background-color:#07704b;
@@ -102,10 +103,11 @@ ul.nav{
            padding:20px 40px;
            float: left;
            width:auto;
-           border-right:solid 1px whte;
+           border-right:solid 1px white;
            text-transform:uppercase;
+           font-size:26px;
 }
-.nav li a:hover{
+ul.nav:hover{
       background-color:blue;
       color:black;    
 }
@@ -120,23 +122,57 @@ ul.nav{
 .nav a:visited{
     color:#07704b;
 }
-.nav a:hover{
-    color:77ceaf;
-    background-color:#49b18c;
-}
 .nav a:active{
     border:solid 1px white;
 }
 
-div {
+.black {
     background-color:black;
     width:100%;
     text-align:center;
-    position:absolute;
     left:0px;
-    top:1220px;
-    px;
-    
-    }
+    top:1073px;
 
-            
+    
+}
+
+/* this is he website for the carousel http://www.the-art-of-web.com/css/3d-transforms/ */
+ #spinner img {
+    position: absolute;
+    border: 1px solid #ccc;
+    background: rgba(255,255,255,0.8);
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+  }
+
+
+@-webkit-keyframes spinner {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+
+#stage {
+  margin: 1em auto;
+  -webkit-perspective: 1200px;
+}
+
+#spinner {
+  -webkit-animation-name: spinner;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -webkit-transform-style: preserve-3d;
+}
+#spinner:hover {
+  -webkit-animation-play-state: paused;
+}
+
+#spinner img {
+  position: absolute;
+  border: 1px solid #ccc;
+  background: rgba(255,255,255,0.8);
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+}
